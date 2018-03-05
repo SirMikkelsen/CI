@@ -26,11 +26,28 @@ namespace ClassLibraryCI.Tests
 
             Assert.AreEqual(actualResult, expectedResult);
 
+        }
 
+        [TestMethod]
+        public void GetAdress()
+        {
 
+            // Arrange
+            Class1 c2 = new Class1();
 
+            string actualResult = "Jernbanegade 3";
 
+            // Act
+            var expectedResult = c2.GetAdress();
+
+            // Assert
+
+            Assert.AreEqual(actualResult, expectedResult);
 
         }
+
+
+
     }
+    
 }
