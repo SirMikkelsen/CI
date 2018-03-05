@@ -12,6 +12,7 @@ namespace ClassLibraryCI
         {
             return "Gordon";
         }
+<<<<<<< HEAD
 
         public String GetAdress()
         {
@@ -19,5 +20,7 @@ namespace ClassLibraryCI
         }
 
 
+=======
+>>>>>>> parent of 57b9d5f... GetAdress method createt
     }
 }

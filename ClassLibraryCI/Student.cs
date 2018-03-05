@@ -10,7 +10,7 @@ namespace ClassLibraryCI
     {
         public string Name()
         {
-            
+            return 5;
         }
     }
 }
