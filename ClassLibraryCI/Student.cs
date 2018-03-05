@@ -8,9 +8,6 @@ namespace ClassLibraryCI
 {
     class Student
     {
-        public string Name()
-        {
-            return 5;
-        }
+       
     }
 }
