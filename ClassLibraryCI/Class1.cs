@@ -8,5 +8,9 @@ namespace ClassLibraryCI
 {
     public class Class1
     {
+        public String GetName()
+        {
+            return "Gordon";
+        }
     }
 }
