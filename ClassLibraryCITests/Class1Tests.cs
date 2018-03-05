@@ -35,7 +35,7 @@ namespace ClassLibraryCI.Tests
             // Arrange
             Class1 c2 = new Class1();
 
-            string actualResult = "Jernbanegade 3";
+            string actualResult = "Elisagaardsvej 5";
 
             // Act
             var expectedResult = c2.GetAdress();
