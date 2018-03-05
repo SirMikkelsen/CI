@@ -6,18 +6,11 @@ using System.Threading.Tasks;
 
 namespace ClassLibraryCI
 {
-    public class Class1
+    class Student
     {
-        public String GetName()
+        public string Name()
         {
-            return "Gordon";
+            
         }
-
-        public String GetAdress()
-        {
-            return "Elisagaardsvej 5";
-        }
-
-
     }
 }
